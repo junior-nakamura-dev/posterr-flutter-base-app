@@ -7,14 +7,14 @@ packages:
       name: archive
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.1.2"
+    version: "3.3.0"
   async:
     dependency: transitive
     description:
       name: async
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.7.0"
+    version: "2.9.0"
   boolean_selector:
     dependency: transitive
     description:
@@ -28,42 +28,35 @@ packages:
       name: characters
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.0"
-  charcode:
-    dependency: transitive
-    description:
-      name: charcode
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.3.1"
+    version: "1.2.1"
   clock:
     dependency: transitive
     description:
       name: clock
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.0"
+    version: "1.1.1"
   collection:
     dependency: transitive
     description:
       name: collection
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.15.0"
+    version: "1.16.0"
   crypto:
     dependency: transitive
     description:
       name: crypto
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.0.1"
+    version: "3.0.2"
   fake_async:
     dependency: transitive
     description:
       name: fake_async
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.2.0"
+    version: "1.3.1"
   file:
     dependency: transitive
     description:
@@ -109,44 +102,55 @@ packages:
       name: matcher
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.10"
+    version: "0.12.12"
+  material_color_utilities:
+    dependency: transitive
+    description:
+      name: material_color_utilities
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.5"
   meta:
     dependency: transitive
     description:
       name: meta
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.7.0"
+    version: "1.8.0"
   micro_app_home:
     dependency: "direct main"
     description:
-      path: "../micro_app_home"
-      relative: true
-    source: path
+      path: "."
+      ref: "v1.0.2"
+      resolved-ref: "39dd7fbbdf8750af8e0d8e2c273830d0a622a01b"
+      url: "https://github.com/junior-nakamura-dev/posterr-flutter-app-home.git"
+    source: git
     version: "1.0.1"
   micro_app_login:
     dependency: "direct main"
     description:
-      path: "../micro_app_login"
-      relative: true
-    source: path
+      path: "."
+      ref: "v1.0.5"
+      resolved-ref: f16f170fa2f5a507e15ff0740eec90f3828ce64e
+      url: "https://github.com/junior-nakamura-dev/posterr-flutter-app-login.git"
+    source: git
     version: "1.0.4"
   micro_commons_design_system:
     dependency: "direct overridden"
     description:
       path: "."
-      ref: "v1.0.2"
-      resolved-ref: "6f19a6f8aa787bb4195b4079d542a062c555a0ca"
-      url: "https://github.com/DeividWillyan/-Curso-Micro-Commons-Design-System.git"
+      ref: "v1.0.3"
+      resolved-ref: d98a312b265d5ce96e7783a549d897685dace783
+      url: "https://github.com/junior-nakamura-dev/posterr-flutter-commons-design-system.git"
     source: git
     version: "1.0.2"
   micro_core:
     dependency: "direct main"
     description:
       path: "."
-      ref: "v1.0.1"
-      resolved-ref: "72827d20289a829009bb5bbb52a40ebdc23265fb"
-      url: "https://github.com/DeividWillyan/-Curso-Micro-Core.git"
+      ref: "v1.0.3"
+      resolved-ref: de690f44550e48ab220165f001e5e8ba0c9a8c9c
+      url: "https://github.com/junior-nakamura-dev/posterr-flutter-micro-core.git"
     source: git
     version: "1.0.1"
   path:
@@ -155,21 +159,21 @@ packages:
       name: path
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.8.0"
+    version: "1.8.2"
   platform:
     dependency: transitive
     description:
       name: platform
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.0.0"
+    version: "3.1.0"
   process:
     dependency: transitive
     description:
       name: process
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.2.1"
+    version: "4.2.4"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -181,7 +185,7 @@ packages:
       name: source_span
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.8.1"
+    version: "1.9.0"
   stack_trace:
     dependency: transitive
     description:
@@ -202,49 +206,49 @@ packages:
       name: string_scanner
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.0"
+    version: "1.1.1"
   sync_http:
     dependency: transitive
     description:
       name: sync_http
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.3.0"
+    version: "0.3.1"
   term_glyph:
     dependency: transitive
     description:
       name: term_glyph
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.2.0"
+    version: "1.2.1"
   test_api:
     dependency: transitive
     description:
       name: test_api
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.1"
+    version: "0.4.12"
   typed_data:
     dependency: transitive
     description:
       name: typed_data
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.3.0"
+    version: "1.3.1"
   vector_math:
     dependency: transitive
     description:
       name: vector_math
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.1.0"
+    version: "2.1.2"
   vm_service:
     dependency: transitive
     description:
       name: vm_service
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "7.1.0"
+    version: "9.0.0"
   webdriver:
     dependency: transitive
     description:
@@ -253,4 +257,4 @@ packages:
     source: hosted
     version: "3.0.0"
 sdks:
-  dart: ">=2.12.0 <3.0.0"
+  dart: ">=2.17.0-0 <3.0.0"

@@ -16,22 +16,25 @@ dependencies:
 dependency_overrides:
   micro_core:
     git:
-      url: https://github.com/DeividWillyan/-Curso-Micro-Core.git
-      ref: v1.0.1
-  
+      url: https://github.com/junior-nakamura-dev/posterr-flutter-micro-core.git
+      ref: v1.0.3
+
   micro_commons_design_system:
     git:
-      url: https://github.com/DeividWillyan/-Curso-Micro-Commons-Design-System.git
-      ref: v1.0.2
+      url: https://github.com/junior-nakamura-dev/posterr-flutter-commons-design-system.git
+      ref: v1.0.3
 
   micro_app_login:
-    path: ../micro_app_login
+    # path: ../micro_app_login
+    git:
+      url: https://github.com/junior-nakamura-dev/posterr-flutter-app-login.git
+      ref: v1.0.5
 
   micro_app_home:
-    path: ../micro_app_home
-    # git:
-    #   url: https://github.com/DeividWillyan/-Curso-Micro-App-Home.git
-    #   ref: v1.0.1
+    # path: ../micro_app_home
+    git:
+      url: https://github.com/junior-nakamura-dev/posterr-flutter-app-home.git
+      ref: v1.0.2
 
 dev_dependencies:
   flutter_test:
