@@ -139,8 +139,8 @@ packages:
     dependency: "direct overridden"
     description:
       path: "."
-      ref: "v1.0.3"
-      resolved-ref: d98a312b265d5ce96e7783a549d897685dace783
+      ref: "v1.0.4"
+      resolved-ref: "75619b510b68c7c388872fd801aec70f4ff5f353"
       url: "https://github.com/junior-nakamura-dev/posterr-flutter-commons-design-system.git"
     source: git
     version: "1.0.2"

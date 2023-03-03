@@ -22,7 +22,7 @@ dependency_overrides:
   micro_commons_design_system:
     git:
       url: https://github.com/junior-nakamura-dev/posterr-flutter-commons-design-system.git
-      ref: v1.0.3
+      ref: v1.0.4
 
   micro_app_login:
     # path: ../micro_app_login
