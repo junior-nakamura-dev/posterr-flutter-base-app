@@ -15,9 +15,10 @@ dependencies:
 
 dependency_overrides:
   micro_core:
+    # path: ../micro_core
     git:
       url: https://github.com/junior-nakamura-dev/posterr-flutter-micro-core.git
-      ref: v1.0.3
+      ref: v1.0.4
 
   micro_commons_design_system:
     git:
@@ -34,13 +35,17 @@ dependency_overrides:
     # path: ../micro_app_home
     git:
       url: https://github.com/junior-nakamura-dev/posterr-flutter-app-home.git
-      ref: v1.0.2
+      ref: v1.0.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   integration_test:
     sdk: flutter
+  # add the generator to your dev_dependencies
+  injectable_generator: ^2.1.0
+  # add build runner if not already added
+  build_runner: ^2.3.3
 
 flutter:
   uses-material-design: true
